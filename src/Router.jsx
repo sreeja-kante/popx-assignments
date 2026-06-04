@@ -5,7 +5,7 @@ import Login from "./pages/Login";
 import CreateAccount from "./pages/CreateAccount";
 import Profile from "./pages/Profile";
 
-function AppRoutes() {
+function Router() {
     return (
         <Routes>
             <Route path="/" element={<Welcome />} />
@@ -16,4 +16,4 @@ function AppRoutes() {
     );
 }
 
-export default AppRoutes;
+export default Router;
